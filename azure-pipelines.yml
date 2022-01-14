@@ -56,6 +56,9 @@ parameters:
 jobs: 
 - job: stepList
   steps: ${{ parameters.mySteplist }}
-- job: myStep
+- job: test
   steps:
-    - ${{ parameters.myStep }}
+    - ${{ if eq(parameters.myNumber, 3) }}:
+      - script: echo This is me appear when u select number 
+    - ${{ if eq(parameters.myNumber, 3) }}:
+      - script: echo This is me appear when u select number 
