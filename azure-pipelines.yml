@@ -18,6 +18,8 @@ parameters:
 
 steps:
 - ${{ if eq(parameters.experimentalTemplate, true) }}:
-  - template: echo you select him 
+   - script: echo you select him 
 - ${{ if not(eq(parameters.experimentalTemplate, true)) }}:
-  - template: echo you select me 
+  - script: echo you select me.
+
+  
