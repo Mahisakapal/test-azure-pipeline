@@ -22,6 +22,7 @@ parameters:
   values:
   - 1
   - 2
+  - 3
   - 4
   - 8
   - 16
