@@ -10,6 +10,9 @@ parameters:
 - name: myString
   type: string
   default: a string
+  values:
+    - go
+    - stop
 - name: myMultiString
   type: string
   default: default
