@@ -64,5 +64,5 @@ jobs:
   steps:
     - ${{ if eq(parameters.myNumber, 3) }}:
       - script: echo This is me appear when u select number 
-    - ${{ if eq(parameters.myString, "go" ) }}:
+    - ${{ if eq(parameters.myString, go) }}:
       - script: echo you put go in mySting and now we are here 
